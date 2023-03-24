@@ -1,4 +1,14 @@
 body {
-    background-color: #88540b;
+    background-color: #86563f;
     color: #f2dfd3;
+    text-align: center;
+    background-image: url("./pictures/sapato.home.jpg");
+    background-position: aleign;
+    background-repeat: no-repeat;
+}
+
+.baner-header {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
