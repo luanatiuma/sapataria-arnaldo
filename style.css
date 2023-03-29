@@ -12,3 +12,20 @@ body {
     height: 400px;
     object-fit: cover;
 }
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #86563f;
+    height: 120px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.logotipo  img {
+    width: 100%;
+    height: 100%;
+}
