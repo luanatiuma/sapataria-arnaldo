@@ -54,20 +54,20 @@ footer {
 }
 
 .titulo-pagina {
-    font-size: 60px;
+    font-size: 100px;
     padding: 10px;
 }
 
 .subtitulo-pagina {
-    font-size: 50px;
+    font-size: 70px;
     padding: 10px;
 }
 
 .main-catalogo h1 {
-    font-size: 50px;
+    font-size: 70px;
     padding: 10px;
     background-color:#b88b5c;
-    margin: 10px 10px;
+    margin: 20px 20px;
 }
 
 .sapatos section main {
