@@ -1,3 +1,4 @@
+/*Body*/
 body {
     background-color: #86563f;
     color: #f2dfd3;
@@ -6,6 +7,7 @@ body {
     background-repeat: no-repeat;
 }
 
+/*Menu de navegação*/
 .baner-header {
     width: 100%;
     height: 400px;
@@ -19,10 +21,6 @@ header {
     justify-content: space-between;
     background-color: #86563f;
     height: 120px;
-}
-
-footer {
-    font-size: 20px;
 }
 
 .menu {
@@ -53,6 +51,8 @@ footer {
     
 }
 
+
+/*Titulos da página*/
 .titulo-pagina {
     font-size: 100px;
     padding: 10px;
@@ -72,4 +72,8 @@ footer {
 
 .sapatos section main {
     justify-content: space-around;
+}
+
+footer {
+    font-size: 20px;
 }
