@@ -15,6 +15,11 @@ body {
     background-repeat: no-repeat;
 }
 
+.sapataria{
+    font-size: 50px;
+    padding: 10px;
+}
+
 /*Body Sobre Nós*/
 .photoArnaldo {
     width: 500px;
@@ -23,7 +28,13 @@ body {
 
 .textSobreNos{
     display: flex;
+    margin: 50px 100px;
+}
 
+.onlyTextSobreNos{
+    display: block;
+    margin: 50px 50px;
+    font-size: 25px;
 }
 
 /*Menu de navegação*/
@@ -71,26 +82,32 @@ header {
 }
 
 
-/*Titulos da página*/
+/*Titulos do catálogo*/
 .titulo-pagina {
-    font-size: 100px;
-    padding: 10px;
+    font-size: 40px;
 }
 
 .subtitulo-pagina {
-    font-size: 70px;
+    font-size: 25px;
     padding: 10px;
 }
 
 .main-catalogo h1 {
-    font-size: 70px;
-    padding: 10px;
+    font-size: 50px;
+    padding: 5px;
     background-color: var(--sub-color);
     margin: 20px 20px;
 }
 
 .sapatos section main {
     justify-content: space-around;
+}
+
+/*Imagens catálogo*/
+.imagCatalogo{
+    width: auto;
+    height: 300px;
+    padding: 80px;
 }
 
 /*rodapé*/
