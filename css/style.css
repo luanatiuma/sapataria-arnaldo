@@ -20,6 +20,33 @@ body {
     padding: 10px;
 }
 
+/*Body Home*/
+.subtituloHome{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.textHome{
+    font-size: 25px; 
+}
+
+.card2Home h1 {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.card2Home h2{
+    font-size: 30px;
+    padding: 20px;
+    background-color: var(--sub-color); 
+    margin: 20px 20px;
+}
+
+.imagHome{
+    width: 500px;
+    height: auto;
+}
+
 /*Body Sobre Nós*/
 .photoArnaldo {
     width: 500px;
