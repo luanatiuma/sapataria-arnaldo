@@ -30,9 +30,9 @@
     <h1 class="sapataria">Sapataria do Arnaldo</h1>
     <h2 class="subtitulo-pagina">Entre em contato conosco</h2>
 
-    <div class="container">
-        <main>
-            <form action="" method="">
+    <main class="paginaContato">
+        <div class="container">
+            <form class="contactForm" action="" method="">
                 <label for="name">Nome</label>
                 <input type="text" id="name" autofocus required>
     
@@ -40,7 +40,12 @@
                 <input type="email" id="email" required>
     
                 <label for="subject">Assunto</label>
-                <input type="text" id="subject" required>
+                <select id="subject" required>
+                    <option value="prazo">Prazo de entrega</option>
+                    <option value="orcamento">Orçamento</option>
+                    <option value="contato">Contato</option>
+                    <option value="outros">Outros</option>
+                </select>
     
                 <label for="message">Mensagem</label>
                 <textarea id="message" cols="30" rows="5"></textarea>
@@ -48,19 +53,18 @@
                 <label for="phone">Tefone</label>
                 <input type="tel" id="phone">
     
-                <input type="submit">
+                <button>Enviar</button>
             </form>
-        </main>
-    
-        <aside>
-            <img src="./pictures/local.png" alt="foto da sapataria">
-    
-            <h3>Horário de funcionamento</h3>
-            <p>Segunda a Sexta</p>
-            <p>9h às 17h</p>
-            <p>Fechada aos sábados, domingos e feriados</p>
-        </aside>
-    </div>
+            
+            <aside>
+                <img src="./pictures/local.png" alt="foto da sapataria">
+                <h3>Horário de funcionamento</h3>
+                <p>Segunda a Sexta</p>
+                <p>9h às 17h</p>
+                <p>Fechada aos sábados, domingos e feriados</p>
+            </aside>
+        </div>
+    </main>
 
     <footer>
         <address>

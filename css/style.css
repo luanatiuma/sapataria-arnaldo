@@ -147,16 +147,39 @@ footer {
 }
 
 /*página contato*/
-.container {
-    display: flex;
-    justify-content: space-between;
+.paginaContato {
+    padding: 20px;
 }
 
-.container img {
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.paginaContato img {
     width: 200px;
 }
 
-.container h3 {
+.paginaContato h3 {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+/*Formulário*/
+.contactForm label, .contactForm button {
+    display: block;
+}
+
+.contactForm {
+    width: 60%;
+    margin: auto;
+}
+
+.contactForm button{
+    margin: auto;
+}
+
+.contactForm input, .contactForm textarea, .contactForm select, .contactForm button {
+    width: 100%;
+    box-sizing: border-box;
 }
