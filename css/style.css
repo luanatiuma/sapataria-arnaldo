@@ -17,13 +17,13 @@ body {
     font-family: Cormorant Garamond, sans-serif;
 }
 
-.sapataria{
+.titlePrincipal{
     font-size: 50px;
     padding: 10px;
 }
 
 /*Body Home*/
-.subtituloHome{
+.subtitleHome{
     font-size: 25px;
     padding: 10px;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 /*Menu de navegação*/
-.baner-header {
+.banerHeader {
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -113,23 +113,23 @@ header {
 
 
 /*Titulos do catálogo*/
-.titulo-pagina {
+.titlePag {
     font-size: 40px;
 }
 
-.subtitulo-pagina {
+.subtitlePag {
     font-size: 25px;
     padding: 10px;
 }
 
-.main-catalogo h1 {
+.mainCatalogo h1 {
     font-size: 50px;
     padding: 5px;
     background-color: var(--sub-color);
     margin: 20px 20px;
 }
 
-.sapatos section main {
+.shoesCatalogo section main {
     justify-content: space-around;
 }
 
@@ -147,20 +147,21 @@ footer {
 }
 
 /*página contato*/
-.paginaContato {
+.pagContact {
     padding: 20px;
 }
 
-.container {
+.containerForm {
     display: flex;
     justify-content: space-around;
+    margin: auto;
 }
 
-.paginaContato img {
+.pagContact img {
     width: 200px;
 }
 
-.paginaContato h3 {
+.pagContact h3 {
     font-size: 14px;
     font-weight: 500;
 }
@@ -172,7 +173,7 @@ footer {
 
 .contactForm {
     width: 60%;
-    margin: auto;
+    max-width: 400px;
 }
 
 .contactForm button{
@@ -183,3 +184,4 @@ footer {
     width: 100%;
     box-sizing: border-box;
 }
+
