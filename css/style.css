@@ -29,7 +29,9 @@ body {
 }
 
 .textHome{
-    font-size: 25px; 
+    font-size: 25px;
+    padding: 10px;
+    background-color: var(--sub-color);
 }
 
 .card2Home h1 {
@@ -44,15 +46,30 @@ body {
     margin: 20px 20px;
 }
 
+.home {
+    width: 100%;
+}
+
+.card2Home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
 .imagHome{
     width: 500px;
-    height: auto;
+    height: 700px;
+    padding: 10px;
+    background-color: var(--letter-color);
 }
 
 /*Body Sobre Nós*/
 .photoArnaldo {
     width: 500px;
     height: auto;
+    padding: 10px;
+    background-color: var(--letter-color);
 }
 
 .textSobreNos{
@@ -61,9 +78,13 @@ body {
 }
 
 .onlyTextSobreNos{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin: 50px 50px;
     font-size: 25px;
+    background-color: var(--sub-color);
+    padding: 10px;
 }
 
 /*Menu de navegação*/
@@ -113,10 +134,6 @@ header {
 
 
 /*Titulos do catálogo*/
-.titlePag {
-    font-size: 40px;
-}
-
 .subtitlePag {
     font-size: 25px;
     padding: 10px;
@@ -157,12 +174,18 @@ footer {
     margin: auto;
 }
 
+.pagContact p {
+    font-size: 20px;
+}
+
 .pagContact img {
-    width: 200px;
+    width: 350px;
+    padding: 10px;
+    background-color: var(--letter-color);
 }
 
 .pagContact h3 {
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 500;
 }
 
@@ -172,8 +195,8 @@ footer {
 }
 
 .contactForm {
-    width: 60%;
-    max-width: 400px;
+    width: 70%;
+    max-width: 500px;
 }
 
 .contactForm button{
